@@ -1,0 +1,124 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="strict-origin-when-cross-origin"><title>Wildfire | UNIST IRIS Lab</title><meta name="description" content="IRIS Lab, UNIST — Remote sensing, geospatial information science and artificial intelligence."><link rel="icon" href="assets/images/2b9f1972bd90bcdbd1.jpg"><link rel="stylesheet" href="assets/site.css"><script src="assets/site.js" defer></script></head><body><header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="IRIS Lab home"><img src="assets/images/2b9f1972bd90bcdbd1.jpg" alt="IRIS Lab emblem" class="brand-seal" decoding="async"><img src="assets/images/232efa3353cd36ea0a.png" alt="IRIS LAB — Intelligent Remote sensing and geospatial Information Science" class="brand-wordmark" decoding="async"></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button><nav id="site-nav" class="main-nav" aria-label="Main navigation"><a href="index.html">HOME</a><a href="professor.html">PROFESSOR</a><a href="members.html">MEMBERS</a><a href="research.html" aria-current="page">RESEARCH</a><a href="publications.html">PUBLICATIONS</a></nav><a class="unist-link" href="https://www.unist.ac.kr/" aria-label="UNIST"><img src="assets/images/88e645d6bcdbf574cb.jpg" alt="UNIST" class="unist-logo" decoding="async"></a></div></header><main id="main-content"><section class="page-hero" style="--hero-image:url('assets/images/048253dad5fe473c5a.jpg')"><video class="hero-video" src="assets/videos/ccede5b10256ef8f98.mp4" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video><div class="container"><h1>RESEARCH</h1></div></section><section class="section container research-detail"><div class="detail-title"><div class="detail-brand"><img src="assets/images/b9beb4c14468ba1cde.png" alt="메인로고.png" class="detail-icon" decoding="async" loading="lazy"><h2>Wildfire</h2></div><a href="research.html">Back to main</a></div><h3 class="section-label">✨ Research Overview</h3><div class="overview-grid"><article class="overview-card"><img src="assets/images/bb3a81da329a13ec04.png" alt="grassland_vegetation_green.png" class="" decoding="async" loading="lazy"><h4>Pre-fire phase</h4><div class="rich"><p>Fire risk assessment</p>
+
+<p>Fire weather forecasting</p></div></article><article class="overview-card"><img src="assets/images/2825f8d39f050b4a57.png" alt="grassland_fire.png" class="" decoding="async" loading="lazy"><h4>Active-fire phase</h4><div class="rich"><p>Active fire detection</p>
+
+<p>Fire radiative power estimation</p></div></article><article class="overview-card"><img src="assets/images/f2dcc21847d7335ceb.png" alt="grassland_after fire_ash.png" class="" decoding="async" loading="lazy"><h4>Post-fire detection</h4><div class="rich"><p>Burn scar analysis</p>
+
+<p>Emission estimation</p></div></article></div><h3 class="section-label">📚 Representative Works</h3><p class="slide-instruction">* Staying the mouse over the screen stops the movement</p><div class="carousel research-carousel" data-carousel role="region" aria-label="Wildfire representative works" tabindex="0"><div class="carousel-viewport"><article class="carousel-slide research-slide" aria-hidden="false"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Fire Risk Assessment</h3><div class="rich"><p>    Wildfires can cause extensive damage, including deforestation and environmental pollution, even from a single event. Restoring affected areas requires substantial time and resources. Therefore, assessing wildfire risk in advance is essential for effective preparedness and response. Most existing wildfire risk indices primarily rely on weather variables associated with ignition, while comprehensive analyses incorporating diverse environmental factors remain limited.</p>
+
+<p><br>
+        Kang et al. (2019, 2020) addressed this limitation by developing an hourly forest fire risk index (HFRI) at 1 km resolution for South Korea. The index integrates accessibility, fuel, temporal, and meteorological factors using the CatBoost machine learning algorithm. HFRI was constructed from an ensemble framework combining integrated and meteorological models, enabling more spatially detailed and seasonally stable simulations compared to earlier indices. Feature contributions analyzed using Shapley Additive Explanations (SHAP) revealed that relative humidity, elevation, road density, and population density were key drivers, underscoring the critical role of accessibility in human-induced wildfire risk.<br>
+ </p></div></div><div class="research-slide-figures"><figure><a href="assets/images/d2d1b79be44fde2710.gif" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/d2d1b79be44fde2710.gif" alt="wildfire1.gif" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Kang et al., 2019</p></div><div class="rich"><p>Kang et al., 2020</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Fire Weather Forecasting</h3><div class="rich"><p>    To minimize the damage caused by forest fires, accurate risk forecasting is essential. Currently, South Korea’s forest fire risk forecasting system provides only short-term predictions, limited to 48 hours. However, the increasing frequency of both small- and large-scale forest fires has resulted in substantial damage, rendering short-term forecasts insufficient for effective response. This highlights the need for mid-range forecasting to enable more proactive wildfire management.</p>
+
+<p><br>
+    Park et al. (2022) developed 7-day mid-range forest fire risk prediction models for South Korea using a random forest algorithm. The models incorporated weather forecasts, historical and current Fire Risk Index (FRI), elevation, forest fire hazard ratings, and drought indices as input variables. The results demonstrated high predictive accuracy and strong agreement with observed wildfire occurrences. Notably, incorporating historical FRI values yielded more accurate predictions than using FRI trends, regardless of the drought index applied.</p></div></div><div class="research-slide-figures"><figure><a href="assets/images/a9982d7bb309f4a8d4.gif" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/a9982d7bb309f4a8d4.gif" alt="wildfire2.gif" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Park et al., 2022</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Active Fire Detection</h3><div class="rich"><p>    To minimize wildfire damage, rapid and coordinated responses enabled by early detection and real-time monitoring are essential. Geostationary satellite imagery, with its high temporal resolution, facilitates near-real-time detection over large areas. However, most existing wildfire detection algorithms rely on threshold-based approaches applied to satellite imagery, limiting their spatiotemporal generalizability. Our goal is to develop a robust real-time wildfire monitoring system that operates reliably across diverse environmental conditions by integrating AI-based models with satellite imagery, weather data, and observational variables.</p>
+
+<p><br>
+     Following the work of Jang et al. (2019), who reduced false alarms through machine learning-based post-processing, numerous studies have incorporated AI techniques into wildfire detection. Kang et al. (2022) emphasized the importance of spatial information by comparing random forest and convolutional neural networks, while Lee et al. (2023) proposed efficient deep learning approaches through systematic analysis of state-of-the-art architectures. More recently, Kang et al. (2023) introduced a dual-module framework to independently process satellite imagery and auxiliary variables, and Sung et al. (2024, 2025) applied techniques to remove environmental trends from satellite observations to enhance detection robustness.</p></div></div><div class="research-slide-figures"><figure><a href="assets/images/960452995850ed0f78.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/960452995850ed0f78.png" alt="Page_Active_Fire_Detection.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Jang et al., 2019</p></div><div class="rich"><p>Kang et al., 2022</p></div><div class="rich"><p>Lee et al., 2023</p></div><div class="rich"><p>Kang et al., 2023</p></div><div class="rich"><p>Sung et al., 2024</p></div><div class="rich"><p>Sung et al., 2025</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Fire Radiative Power Estimation</h3><div class="rich"><p>      Satellite remote sensing provides essential information on fire radiative power (FRP), a key variable for estimating biomass burning emissions and understanding fire dynamics. However, FRP evaluation remains challenging due to limited field validation data and differences in sensor characteristics across satellite platforms. Previous intercomparison studies have attempted to assess FRP uncertainty, but they are often limited in scope and influenced by differences in fire detection capabilities.</p>
+<p>        To address these limitations, Kang et al. (2026) conducts a global evaluation of FRP from three satellite sensors—MODIS, VIIRS, and SLSTR—by harmonizing fire clusters while preserving sensor-specific detection characteristics. In addition, extended triple collocation (ETC) analysis is applied to assess FRP consistency without relying on reference data. The results highlight overall agreement among sensors, with regional differences reflecting variations in fire characteristics and detection sensitivity.</p></div></div><div class="research-slide-figures"><figure><a href="assets/images/fbfe382ccfef3cfa19.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/fbfe382ccfef3cfa19.png" alt="wildfire5.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Kang et al., 2026</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Burn Scar Analysis</h3><div class="rich"><p>    Burn scar analysis is essential not only for delineating damaged areas but also for guiding forest and ecosystem restoration, preventing secondary hazards such as landslides, and providing critical data for climate studies. Wildfire damage assessment can be conducted using either optical or synthetic aperture radar (SAR) imagery. Although optical imagery generally provides high accuracy, its performance is often hindered by cloud and smoke interference, reducing timeliness and reliability. In contrast, SAR enables all-weather data acquisition; however, it is subject to higher uncertainty due to inherent speckle noise, necessitating additional preprocessing and advanced AI-based techniques.</p>
+
+<p><br>
+    Sim et al. (2020) developed a machine learning model integrating Sentinel-1 and Sentinel-2 data to estimate wildfire severity. Lee et al. (2021) utilized Sentinel-1 SAR data combined with principal component analysis (PCA) and K-means clustering to estimate burned areas, achieving high accuracy when validated against local reference data. More recently, Rana et al. (2026) evaluated five U-Net variants for Sentinel-1 SAR-based burned area mapping. By analyzing their performance under different environmental and observational conditions, these studies identify conditions in which specific components underperform and provides insights into strategies for overcoming these limitations.</p></div></div><div class="research-slide-figures"><figure><a href="assets/images/a6a33313491b6d0bde.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/a6a33313491b6d0bde.png" alt="wildfire3.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Sim et al., 2020</p></div><div class="rich"><p>Lee et al., 2021</p></div><div class="rich"><p>Rana et al., 2026</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Emission Estimation</h3><div class="rich"><p>      Wildfires emit substantial amounts of air pollutants and greenhouse gases, degrading local air quality and contributing to global climate change. Emission estimates derived from satellite-based fire radiative energy provide essential baseline data for air quality assessment and climate research.</p>
+<p>    Kang et al. (2024) and Kang and Im (2024) utilized geostationary satellite imagery to address the underestimation issues in existing emission products and investigated the impacts of wildfire emissions on surrounding air quality.<br>
+ </p></div></div><div class="research-slide-figures"><figure><a href="assets/images/ce2d6828375e1fa99d.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/ce2d6828375e1fa99d.png" alt="wildfire4.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Kang et al., 2024</p></div><div class="rich"><p>Kang and Im, 2024</p></div></figcaption></figure></div></div></article></div><div class="carousel-controls"><button class="carousel-prev" aria-label="Previous slide">←</button><div class="carousel-dots"><button class="carousel-dot" aria-label="Slide 1" aria-selected="true"></button><button class="carousel-dot" aria-label="Slide 2" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 3" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 4" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 5" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 6" aria-selected="false"></button></div><span class="carousel-count">1 / 6</span><button class="carousel-pause" aria-pressed="false">Pause</button><button class="carousel-next" aria-label="Next slide">→</button></div></div><section class="research-bibliography"><div class="bibliography-heading"><h3>📝 Publications</h3><p>Last updated : 2026/09/07</p></div><div class="rich bibliography"><p>Yang, S., Kim, W., Sung, T., Lee, S., Lee, G., Xu, Z., &amp; Im, J. (2026). <strong>Satellite-based wildfire monitoring across the fire lifecycle using artificial intelligence: Trends, challenges, and future directions.</strong> Korean Journal of Remote Sensing, 42(3), 315–341.</p>
+
+
+
+<p>Kang, Y., Lee, S., Cho, D., &amp; Im, J. (2026). <strong>Deep learning-based forecasting provides a pathway to closing wildfire information gaps in underserved regions.</strong> Communications Earth &amp; Environment, 7, 684.</p>
+
+
+
+<p>Sung, T., Yang, S., Kim, W., Kang, Y., Son, B., Lee, J., &amp; Im, J. (2026). <strong>Enhancing satellite-based wildfire monitoring: An advanced framework for burn severity analysis with phenology-detrended indices. </strong>Remote Sensing of Environment, 343, 115488.</p>
+
+
+
+<p>Rana, S. S., Lee, J., Kang, Y., &amp; Im, J. (2026). <strong>Exploring the impacts of dual-polarized vegetation indices and U-shaped deep learning architectures on SAR-based burned area mapping. </strong>International Journal of Applied Earth Observation and Geoinformation, 146, 105141.</p>
+
+
+
+<p>Kang, Y., Lee, J., &amp; Im, J. (2026). <strong>Comprehensive global fire radiative power evaluation by minimizing detection bias with intercomparison and extended triple collocation analysis.</strong> Remote Sensing of Environment, 333, 115136.</p>
+
+
+
+<p>Sung, T., Lee, G., Kim, D., Kim, W., Yang, S., &amp; Im, J. (2025). <strong>Real-Time Wildfire Monitoring via Geostationary Satellite andArtificial Intelligence: Insights from the March 2025 South Korea Wildfires.</strong> Korean Journal of Remote Sensing, 41(3), 565-580.</p>
+
+
+
+<p>Sung, T., Kang, Y., &amp; Im, J. (2024). <strong>Enhancing Satellite-based Wildfire Monitoring: Advanced Contextual Model Using Environmental and Structural Information.</strong> IEEE Transactions on Geoscience and Remote Sensing.</p>
+
+
+
+<p>Kang, Y., &amp; Im, J. (2024). <strong>Mitigating underestimation of fire emissions from the Advanced Himawari Imager: A machine learning and multi-satellite ensemble approach.</strong> International Journal of Applied Earth Observation and Geoinformation, 128, 103784.</p>
+
+
+
+<p>Kang, Y., Choi, H., Kim, Y., &amp; Im, J. (2024). <strong>Understanding the Impact of Forest Fire on Ambient Air Quality.</strong> Journal of Korean Society for Atmospheric Environment, 40(1), 103-117.</p>
+
+
+
+<p>Kang, Y., Sung, T., &amp; Im, J. (2023). <strong>Toward an adaptable deep-learning model for satellite-based wildfire monitoring with consideration of environmental conditions.</strong> Remote Sensing of Environment, 298, 113814.</p>
+
+
+
+<p>Lee, S., Kang, Y., Sung, T., &amp; Im, J. (2023). <strong>Efficient Deep Learning Approaches for Active Fire Detection Using Himawari-8 Geostationary Satellite Images.</strong> Korean Journal of Remote Sensing, 39(5_3), 979–995.</p>
+
+
+
+<p>Janizadeh, S., Bateni, S. M., Jun, C., Im, J., Pai, H. T., Band, S. S., &amp; Mosavi, A. (2023). <strong>Combination four different ensemble algorithms with the generalized linear model (GLM) for predicting forest fire susceptibility.</strong> Geomatics, Natural Hazards and Risk, 14(1), 2206512.</p>
+
+
+
+<p>Park, S., Son, B., Im, J., Kang, Y., Kwon, C., &amp; Kim, S. (2022). <strong>Development of Mid-range Forecast Models of Forest Fire Risk Using Machine Learning.</strong> Korean Journal of Remote Sensing, 38(5_2), 781–791.</p>
+
+
+
+<p>Kim, B., Lee, K., Park, S., &amp; Im, J. (2022). <strong>Forest Burned Area Detection Using Landsat 8/9 and Sentinel-2 A/B Imagery with Various Indices: A Case Study of Uljin.</strong> Korean Journal of Remote Sensing, 38(5_2), 765–779.</p>
+
+
+
+<p>Kang, Y., Jang, E., Im, J., &amp; Kwon, C. (2022). <strong>A deep learning model using geostationary satellite data for forest fire detection with reduced detection latency.</strong> GIScience &amp; Remote Sensing, 59(1), 2019-2035.</p>
+
+
+
+<p>Lee, J., Kim, W., Im, J., Kwon, C., &amp; Kim, S. (2021). <strong>Detection of Forest Fire Damage from Sentinel-1 SAR Data through the Synergistic Use of Principal Component Analysis and K-means Clustering.</strong> Korean Journal of Remote Sensing, 37(5), 1373-1387.</p>
+
+
+
+<p>Sim, S., Kim, W., Lee, J., Kang, Y., Im, J., Kwon, C., &amp; Kim. S. (2020). <strong>Wildfire Severity Mapping Using Sentinel Satellite Data Based on Machine Learning Approaches</strong>. Korean Journal of Remote Sensing, 36(5), 1109-1123.</p>
+
+
+
+<p>Kang, Y., Jang, E., Im, J., Kwon, C., &amp; Kim, S. (2020). <strong>Developing a New Hourly Forest Fire Risk Index Based on Catboost in South Korea</strong>. Applied Sciences, 10(22), 8213.</p>
+
+
+
+<p>Kang, Y., Park, S., Jang, E., Im, J., Kwon, C., &amp; Lee, S. (2019). <strong>Spatio-temporal enhancement of forest fire risk index using weather forecast and satellite data in South Korea</strong>. Journal of the Korean Association of Geographic Information Studies, 22, 116–130.</p>
+
+
+
+<p>Park, S., Son, B., Im, J., Lee, J., Lee, B., &amp; Kwon, C. (2019). <strong>Development of Satellite-Based Drought Indices for Assessing Wildfire Risk</strong>. Korean Journal of Remote Sensing, 35(6), 1285-1298.</p>
+
+
+
+<p>Park, H., Im, J., &amp; Kim, M. (2019). <strong>Improvement of satellite-based estimation of gross primary production through optimization of meteorological parameters and high resolution land cover information at regional scale over East Asia</strong>. Agricultural and Forest Meteorology, 271, 180-192.</p>
+
+
+
+<p>Jang, E., Kang, Y., Im, J., Lee, D. W., Yoon, J., &amp; Kim, S. K. (2019). <strong>Detection and monitoring of forest fires using Himawari-8 geostationary satellite data in South Korea</strong>. Remote Sensing, 11(3), 271.</p>
+
+
+
+<p>Lee, J., Im, J., Kim, K., &amp; Quackenbush, L. J. (2018). <strong>Machine learning approaches for estimating forest stand height using plot-based observations and airborne LiDAR data</strong>. Forests, 9(5), 268.</p>
+
+
+
+<p>Fang, F., Im, J., Lee, J., &amp; Kim, K. (2016). <strong>An improved tree crown delineation method based on live crown ratios from airborne LiDAR data</strong>. GIScience &amp; Remote Sensing, 53(3), 402-419.</p>
+
+
+
+<p>Li, M., Im, J., Quackenbush, L. J., &amp; Liu, T. (2014). <strong>Forest biomass and carbon stock quantification using airborne LiDAR data: A case study over Huntington Wildlife Forest in the Adirondack Park</strong>. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 7(7), 3143-3156.</p>
+
+</div></section></section></main><footer class="site-footer"><div class="container footer-inner"><div class="rich" data-source-id="WRchTxt0-16wb"><p><span><span> © COPYRIGHT UNIST IRIS LAB. ALL RIGHT RESERVED.</span></span></p>
+
+</div><div class="rich" data-source-id="WRchTxts-jbi"><p><span>UNIST-gil 50, Ulsan 44919, Republic of Korea.<br>
+Phone : +82 52 217 2887 / Admissions : +82 52 217 1180</span></p></div></div></footer></body></html>

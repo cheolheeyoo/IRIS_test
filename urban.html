@@ -1,0 +1,175 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="strict-origin-when-cross-origin"><title>Urban | UNIST IRIS Lab</title><meta name="description" content="IRIS Lab, UNIST — Remote sensing, geospatial information science and artificial intelligence."><link rel="icon" href="assets/images/2b9f1972bd90bcdbd1.jpg"><link rel="stylesheet" href="assets/site.css"><script src="assets/site.js" defer></script></head><body><header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="IRIS Lab home"><img src="assets/images/2b9f1972bd90bcdbd1.jpg" alt="IRIS Lab emblem" class="brand-seal" decoding="async"><img src="assets/images/232efa3353cd36ea0a.png" alt="IRIS LAB — Intelligent Remote sensing and geospatial Information Science" class="brand-wordmark" decoding="async"></a><button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button><nav id="site-nav" class="main-nav" aria-label="Main navigation"><a href="index.html">HOME</a><a href="professor.html">PROFESSOR</a><a href="members.html">MEMBERS</a><a href="research.html" aria-current="page">RESEARCH</a><a href="publications.html">PUBLICATIONS</a></nav><a class="unist-link" href="https://www.unist.ac.kr/" aria-label="UNIST"><img src="assets/images/88e645d6bcdbf574cb.jpg" alt="UNIST" class="unist-logo" decoding="async"></a></div></header><main id="main-content"><section class="page-hero" style="--hero-image:url('assets/images/048253dad5fe473c5a.jpg')"><video class="hero-video" src="assets/videos/ccede5b10256ef8f98.mp4" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video><div class="container"><h1>RESEARCH</h1></div></section><section class="section container research-detail"><div class="detail-title"><div class="detail-brand"><img src="assets/images/97d1052f295b8afc28.png" alt="IRIS 일러스트.png" class="detail-icon" decoding="async" loading="lazy"><h2>Urban</h2></div><a href="research.html">Back to main</a></div><h3 class="section-label">✨ Research Overview</h3><div class="overview-grid"><article class="overview-card"><img src="assets/images/ac379307aa55519303.png" alt="ciry_temperature.png" class="" decoding="async" loading="lazy"><h4>Thermal Modeling</h4><div class="rich"><p>Air Temperature<br>
+Land Surface Temperature</p>
+
+<p>Heatwave Forecasting</p></div></article><article class="overview-card"><img src="assets/images/71f03f83c9410a7f81.png" alt="urban_city_thermal_heat.png" class="" decoding="async" loading="lazy"><h4>Urban Climate</h4><div class="rich"><p>Local Climate Zone</p>
+
+<p>Urban Heat Island</p>
+
+<p>Heat Mitigation</p></div></article><article class="overview-card"><img src="assets/images/f7aa0ca1a82476c012.png" alt="urban1.png" class="" decoding="async" loading="lazy"><h4>Human Activity</h4><div class="rich"><p>Traffic Monitoring</p>
+
+<p>Building Energy Use</p>
+
+<p>Anthropogenic Impacts</p></div></article></div><h3 class="section-label">📚 Representative Works</h3><p class="slide-instruction">* Staying the mouse over the screen stops the movement</p><div class="carousel research-carousel" data-carousel role="region" aria-label="Urban representative works" tabindex="0"><div class="carousel-viewport"><article class="carousel-slide research-slide" aria-hidden="false"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Air Temperature</h3><div class="rich"><p>    Accurate temperature monitoring is critical to understanding and managing urban climate dynamics, especially in the context of rising global temperatures and increasing frequency of extreme events. However, due to the limited number of in situ air temperature monitoring stations, a significant gap exists in understanding detailed temperature patterns across cities.</p>
+
+
+
+<p>      To address this problem, we utilize satellite-derived land surface temperature (LST) data, which provides comprehensive spatial coverage across urban terrain. We integrate machine learning techniques with LST data to reconstruct daily maximum and minimum temperatures for areas that cannot be directly measured.</p>
+
+<p><br>
+      We also apply spatial interpolation methods to estimate air temperatures in unmonitored regions. We trained a machine learning model with satellite data and in situ observations to create a seamless spatial map of air temperature. Compared to the smoothed spatial distribution of the traditional geostatistical model, Cokriging, our model was found to better represent heterogeneous spatial patterns. This methodology enhances our ability to effectively monitor air temperature, helping us better understand and manage heat risks in cities.<br>
+<br>
+<br>
+ </p></div></div><div class="research-slide-figures"><figure><a href="assets/images/7a8f97f1b838b5dccd.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/7a8f97f1b838b5dccd.png" alt="Slide_AirTemperature.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Yoo et al., 2018</p></div><div class="rich"><p>Cho et al., 2020</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Land Surface Temperature</h3><div class="rich"><p>     Land surface temperature (LST) is a crucial variable in understanding the thermal dynamics of the Earth's surface. It directly influences surface heat fluxes, energy balance, and plays a significant role in shaping the local climate, especially in urban environments. Despite its importance, continuous and seamless monitoring of LST is challenging due to the data gaps in satellite-based LST measurements interrupted by cloud cover and the limited number of in-situ observation stations.</p>
+
+<p><br>
+    To fill the incomplete LST measurements under cloudy conditions, first, we corrected biases between satellite-derived LST and in-situ measurements to minimize errors caused by cloud-induced cold or warm biases. Furthermore, we incorporated binary cloud cover data into the model, enabling us to better account for cloud-related impacts on LST and improve the overall reliability of our temperature estimates.</p>
+
+<p><br>
+    Our research also explores innovative methods for hourly LST estimation using a geostationary satellite data from GEO-KOMPSAT-2A (GK2A). By leveraging accumulated longwave and shortwave radiation data from GK2A, we are able to capture the historical influence of cloud effects on surface temperatures. This allows us to estimate LST with higher precision and temporal granularity, providing valuable insights for real-time heat monitoring and urban climate management.<br>
+<br>
+ </p></div></div><div class="research-slide-figures"><figure><a href="assets/images/898343df34df908deb.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/898343df34df908deb.png" alt="Slide_LandSurfaceTemperature.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Yoo et al., 2020</p></div><div class="rich"><p>Cho et al., 2022</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>LST Spatial Downscaling</h3><div class="rich"><p>     Satellite-based Land Surface Temperature (LST) is a major parameter for analyzing urban thermal environments. However, due to the heterogeneity of urban spaces, there is a growing demand for high-resolution LST products to enable more detailed analyses. To address this need, we aim to develop a machine learning (ML)-based model for high-resolution LST estimation, referred to as LST spatial downscaling.</p>
+
+<p><br>
+    We utilized various satellite data with a Random Forest (RF) model to downscale MODIS (Moderate Resolution Imaging Spectroradiometer) 1 km to 250 m. We demonstrated how high-resolution LST can reveal intra-urban LST variations based on land cover types. Additionally, we published a review paper that synthesized recent trends, limitations, and future research directions, expanding our understanding of LST spatial downscaling.</p>
+
+<p><br>
+    RF is the most widely applied algorithm in LST downscaling, demonstrating robust performance. However, we noted the attenuation of extreme values and, in response to this issue, were the to apply Local Linear Forest (LLF) for spatial enhancement, demonstrating its efficacy.<br>
+<br>
+<br>
+<br>
+ </p></div></div><div class="research-slide-figures"><figure><a href="assets/images/c32bd58712603f92ca.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/c32bd58712603f92ca.png" alt="Slide_LST_Spatial_Downscaling.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Yoo et al., 2017</p></div><div class="rich"><p>Yoo et al., 2020</p></div><div class="rich"><p>Yoo et al., 2022</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Short-term Heatwave Forecasting</h3><div class="rich"><p>     Forecasts of maximum and minimum air temperatures are essential to mitigate the damage of extreme weather events such as heat waves and tropical nights. We aim to develop more accurate air temperature prediction models by correcting the prediction bias of numerical weather prediction models using various machine learning (ML) and deep-learning (DL) based post‐processing techniques. Two numerical models provided by the Korean Meteorological Administration, LDAPS and GDAPS, are the targets.</p>
+
+<p><br>
+    First, we developed three ML-based and one ensemble bias correction models for Seoul. The original LDAPS showed an R2 of 0.69 and a bias of -0.85℃ in the next day’s maximum temperature forecast. Our ensemble model showed improved forecast skill with an R2 of 0.78 and a bias of -0.13℃. Second, we applied DL to the bias correction model and expanded the study area to South Korea. Additionally, we developed a novel model that combines spatial downscaling and bias correction using a DL technique. In particular, we successfully predicted the daily minimum and maximum air temperature for 7 days across South Korea compared to GDAPS.<br>
+<br>
+<br>
+<br>
+<br>
+ </p></div></div><div class="research-slide-figures"><figure><a href="assets/images/03b82e6233895b118c.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/03b82e6233895b118c.png" alt="Slide_Short-term_Heatwave_Forecasting.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Cho et al., 2020</p></div><div class="rich"><p>Cho et al., 2022</p></div><div class="rich"><p>Cho et al., 2024</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Long-term Heatwave Forecasting</h3><div class="rich"><p>     With climate change and frequent extreme weather events, long-term predictions of heat waves are becoming increasingly important for risk mitigation and disaster preparedness. We focused on distant ocean and land variability and their potential to influence South Korea's summer climate. This study identified global climate variables that are important for predicting heat waves in South Korea.</p>
+
+<p><br>
+    We examined four climate components: soil moisture, snow depth, sea surface temperature, and sea ice concentration. Through long-term nonlinear correlation analysis, we selected a total of 16 winter or spring climate variabilities. Then, we built a machine learning-based heat wave prediction model using these variables as independent variables and the number of heat waves as the dependent variable. The model performed best when compared to one simple statistical model and one physics-based climate model. We evaluated the most important teleconnection drivers through explainable artificial intelligence (XAI) analysis and further analyzed their association with South Korea’s summer climate patterns and large-scale teleconnections which has already been demonstrated to be associated with the favorable condition for heatwaves in South Korea.<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ </p></div></div><div class="research-slide-figures"><figure><a href="assets/images/d4b92e2e10e5024b2e.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/d4b92e2e10e5024b2e.png" alt="Slide_Long-term_Heatwave_Forecasting.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Lee et al., 2024</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Local Climate Zone</h3><div class="rich"><p>     The Local Climate Zone (LCZ) scheme is a standardized classification system that represents the characteristics of urban forms and functions, particularly in urban heat island (UHI) research. It defines 17 distinct zones based on features such as building and tree height, density, and surface cover types.</p>
+
+<p><br>
+    We are the first to apply convolutional neural networks (CNNs) to LCZ mapping. Previous work has utilized satellite imagery and random forest (RF) classifiers for classification, but we significantly improved accuracy performance by using image-based deep learning technology.</p>
+
+<p><br>
+    In addition, we proposed a method to improve the difficulty of classifying complex urban structures using satellite images alone by using geographic information system (GIS)-based building data. In particular, our framework selectively choose LCZ classification results based on the classification certainty of deep learning classifiers to reflect the limitations of incomplete building information.</p>
+
+<p><br>
+    Our team remains committed to applying the LCZ framework to diverse studies, advancing sustainable urban development and environmental stewardship.</p></div></div><div class="research-slide-figures"><figure><a href="assets/images/d5619a362a23fd0319.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/d5619a362a23fd0319.png" alt="Slide_Local_Climate_Zone.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Yoo et al., 2019</p></div><div class="rich"><p>Yoo et al., 2020</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Urban Thermal Environment Analysis</h3><div class="rich"><p>     As cities continue to grow and urbanize rapidly, the need to effectively monitor and manage the urban thermal environment becomes increasingly critical. The urban heat island (UHI) effect, combined with the impacts of climate change, presents significant challenges to public health, energy consumption, and urban sustainability. Understanding how urban structures and population dynamics contribute to heat distribution is essential for developing resilient cities.</p>
+
+<p><br>
+    To address these challenges, we conducted a study in Suwon, South Korea, by comparing urban structure changes between 2004 and 2021 and its impact on LST. By employing LST downscaling techniques, we generated high-resolution (30 m) LST maps, which allowed us to closely examine thermal changes. We then analyzed the impact of urban expansion—both horizontal and vertical—on the thermal environment, providing valuable insights into how urban growth influences heat distribution across the city.</p>
+
+<p><br>
+    We proposed a diurnal heat risk assessment framework that integrated spatiotemporal air temperature and real-time population data. Using machine learning techniques, we produced high-resolution (250-meter) daily Tmax and Tmin maps, which better matched the actual heat exposure of the population and effectively showed the diurnal variation of heat risk between day and night.</p></div></div><div class="research-slide-figures"><figure><a href="assets/images/d2262204a99185f82a.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/d2262204a99185f82a.png" alt="Slide_Urban_Thermal_Environment_Analysis.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>Yoo et al., 2019</p></div><div class="rich"><p>Lee et al., 2021</p></div><div class="rich"><p>Lee et al., 2023</p></div><div class="rich"><p>Yoo et al., 2023</p></div></figcaption></figure></div></div></article><article class="carousel-slide research-slide" hidden aria-hidden="true"><div class="research-slide-grid"><div class="research-slide-copy"><h3>Urban Carbon Emission</h3><div class="rich"><p>     Quantification of carbon emissions often relies on a top-down approach that multiplies annual national fuel consumption by an emissions factor. However, this method typically results in low spatial and temporal resolution. Carbon emissions are also observed directly, through stack emissions measurements or in-situ monitoring stations. In addition, advancements in satellite technology are rapidly enhancing global carbon emission monitoring capabilities.</p>
+
+<p><br>
+    Urban areas are significant sources of carbon emissions due to various human activities. With increasing urbanization, there is a growing demand for high-resolution spatio-temporal technology to estimate carbon emissions. Particularly, emissions from road transportation, driven by rising traffic, have become one of the largest direct sources of carbon emissions. In this study, we aim to estimate carbon emissions by integrating traffic volume data with artificial intelligence. We will used a deep learning model to construct traffic volume in a city and calculate vehicle emissions on this data.</p>
+
+</div></div><div class="research-slide-figures"><figure><a href="assets/images/c79e93eef556399543.png" data-lightbox aria-label="Enlarge research figure"><img src="assets/images/c79e93eef556399543.png" alt="urban2.png" class="" decoding="async" loading="lazy"></a><figcaption><div class="rich"><p>In progress</p></div></figcaption></figure></div></div></article></div><div class="carousel-controls"><button class="carousel-prev" aria-label="Previous slide">←</button><div class="carousel-dots"><button class="carousel-dot" aria-label="Slide 1" aria-selected="true"></button><button class="carousel-dot" aria-label="Slide 2" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 3" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 4" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 5" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 6" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 7" aria-selected="false"></button><button class="carousel-dot" aria-label="Slide 8" aria-selected="false"></button></div><span class="carousel-count">1 / 8</span><button class="carousel-pause" aria-pressed="false">Pause</button><button class="carousel-next" aria-label="Next slide">→</button></div></div><section class="research-bibliography"><div class="bibliography-heading"><h3>📝 Publications</h3><p>Last updated : 2026/09/07</p></div><div class="rich bibliography"><p>Lee, S., Yoo, C., Son, B., Cho, D., Im, J., &amp; Chakraborty, T. C. (2026). <strong>Global patterns of urban heat shaped by climate and morphology.</strong> Nature Communications, 17(1), 6445.</p>
+
+
+
+<p>Lee, S., Kang, Y., Sung, T., Hwang, S., Yang, S., &amp; Im, J. (2026). <strong>Mapping nationwide 1 Km hourly human mobility (2022–2024) across South Korea using multi-source data.</strong> GIScience &amp; Remote Sensing.</p>
+
+
+
+<p>Kim, Y., Park, S., Kim, H., Bae, D., Lee, Y., Lee, S., ... &amp; Im, J. (2025). <strong>Long-Term (2013–2024) Reconstructed All-Sky Land Surface Temperature from MODIS Integrating Machine Learning and Cloud Conditions for South Korea, South Korea.</strong> Korean Journal of Remote Sensing.</p>
+
+
+
+<p>Park, S., Kim, H. J., Kim, Y., Lee, Y., Cho, D., Yoo, C., ... &amp; Im, J. (2025). <strong>Nationwide Local Climate Zone Mapping and Comparative Assessment of Urban Heat Island Effects in South Korea, South Korea.</strong> Korean Journal of Remote Sensing.</p>
+
+
+
+<p>Lee, Y., Jegal, S., Lee, S., Son, B., &amp; Im, J. (2025). <strong>Impact of urban tree canopy on land surface temperature and green space inequities in Suwon, South Korea.</strong> Korean Journal of Remote Sensing.</p>
+
+
+
+<p>Kim, Y., Yoo, C., &amp; Im, J. (2025). <strong>Nighttime satellite land surface temperature for urban applications: achievements, challenges, and future prospects.</strong> GIScience &amp; Remote Sensing.</p>
+
+
+
+<p>Bae, D., Cho, D., Im, J., Yoo, C., Lee, Y., &amp; Lee, S. (2025). <strong>Improved hourly all-sky land surface temperature estimation: Incorporating the temporal variability of cloud-radiation interactions.</strong> International Journal of Applied Earth Observation and Geoinformation.</p>
+
+
+
+<p>Kim, Y., Lee, S., Cho, D., &amp; Im, J. (2024). <strong>Impact of covid-19 on the urban heat island in daegu using downscaled land surface temperature.</strong> Korean Journal of Remote Sensing.</p>
+
+
+
+<p>Lee, Y., Cho, D., Im, J., Yoo, C., Lee, J., Ham, Y. G., &amp; Lee, M. I. (2024). <strong>Unveiling teleconnection drivers for heatwave prediction in South Korea using explainable artificial intelligence.</strong> npj Climate and Atmospheric Science, 7(1), 176.</p>
+
+
+
+<p>Cho, D., Im, J., &amp; Jung, S. (2024). <strong>A new statistical downscaling approach for short‐term forecasting of summer air temperatures through a fusion of deep learning and spatial interpolation. </strong>Quarterly Journal of the Royal Meteorological Society, 150(760), 1222-1242.</p>
+
+
+
+<p>Yoo, C., Im, J., Weng, Q., Cho, D., Kang, E., &amp; Shin, Y. (2023). <strong>Diurnal urban heat risk assessment using extreme air temperatures and real-time population data in Seoul.</strong> Iscience, 26(11).</p>
+
+
+
+<p>Lee, S., Yoo, C., Im, J., Cho, D., Lee, Y., &amp; Bae, D. (2023). <strong>A hybrid machine learning approach to investigate the changing urban thermal environment by dynamic land cover transformation: A case study of Suwon, republic of Korea.</strong> International Journal of Applied Earth Observation and Geoinformation, 122, 103408.</p>
+
+
+
+<p>Yoo, C., Im, J., Cho, D., Lee, Y., Bae, D., &amp; Sismanidis, P. (2022). <strong>Downscaling MODIS nighttime land surface temperatures in urban areas using ASTER thermal data through local linear forest.</strong> International Journal of Applied Earth Observation and Geoinformation, 110, 102827.<br>
+ </p>
+
+<p>Cho, D., Bae, D., Yoo, C., Im, J., Lee, Y., &amp; Lee, S. (2022).<strong> All-sky 1 km MODIS land surface temperature reconstruction considering cloud effects based on machine learning</strong>. Remote Sensing, 14(8), 1815.</p>
+
+
+
+<p>Cho, D., Yoo, C., Son, B., Im, J., Yoon, D., &amp; Cha, D. H. (2022). <strong>A novel ensemble learning for post-processing of NWP Model's next-day maximum air temperature forecast in summer using deep learning and statistical approaches</strong>. Weather and Climate Extremes, 100410.</p>
+
+
+
+<p>Lee, Y., Lee, S., Im, J., &amp; Yoo, C. (2021). <strong>Analysis of Surface Urban Heat Island and Land Surface Temperature Using Deep Learning Based Local Climate Zone Classification: A Case Study of Suwon and Daegu, Korea. </strong>Korean Journal of Remote Sensing 37(5-3), 1447-1460.</p>
+
+
+
+<p>Cho, D., Yoo, C., Im, J., Lee, Y., &amp; Lee, J. (2020).<strong> Improvement of spatial interpolation accuracy of daily maximum air temperature in urban areas using a stacking ensemble technique</strong>. GIScience &amp; Remote Sensing, 1-17.</p>
+
+
+
+<p>Cho, D., Yoo, C., Im, J., &amp; Cha, D. H. (2020). <strong>Comparative Assessment of Various Machine Learning‐Based Bias Correction Methods for Numerical Weather Prediction Model Forecasts of Extreme Air Temperatures in Urban Areas</strong>. Earth and Space Science, 7(4), e2019EA000740.</p>
+
+
+
+<p>Yoo, C., Lee, Y., Cho, D., Im, J., &amp; Han, D. (2020). <strong>Improving Local Climate Zone Classification Using Incomplete Building Data and Sentinel 2 Images Based on Convolutional Neural Networks</strong>. Remote Sensing, 12(21), 3552.</p>
+
+
+
+<p>Yoo, C., Im, J., Park, S., &amp; Cho, D. (2020). <strong>Spatial Downscaling of MODIS Land Surface Temperature: Recent Research Trends, Challenges, and Future Directions</strong>. Korean Journal of Remote Sensing, 36(4), 609-626.</p>
+
+
+
+<p>Yoo, C., Im, J., Cho, D., Yokoya, N., Xia, J., &amp; Bechtel, B. (2020). <strong>Estimation of All-Weather 1 km MODIS Land Surface Temperature for Humid Summer Days</strong>. Remote Sensing, 12(9), 1398.</p>
+
+
+
+<p>Yoo, C., Han, D., Im, J., &amp; Bechtel, B. (2019). <strong>Comparison between convolutional neural networks and random forest for local climate zone classification in mega urban areas using Landsat images</strong>. ISPRS Journal of Photogrammetry and Remote Sensing, 157, 155-170.</p>
+
+
+
+<p>Yoo, C., Park, S., Kim, Y., &amp; Cho, D. (2019). <strong>Analysis of Thermal Environment by Urban Expansion using KOMPSAT and Landsat 8: Sejong City. </strong>Korean Journal of Remote Sensing, 35(6_4), 1403-1415.</p>
+
+
+
+<p>Yoo, C., Im, J., Park, S., &amp; Quackenbush, L. J. (2018). <strong>Estimation of daily maximum and minimum air temperatures in urban landscapes using MODIS time series satellite data</strong>. ISPRS journal of photogrammetry and remote sensing, 137, 149-162.</p>
+
+
+
+<p>Yoo, C., Im, J., Park, S., &amp; Cho, D. (2017). <strong>Thermal characteristics of Daegu using land cover data and satellite-derived surface temperature downscaled based on machine learning</strong>. Korean Journal of Remote Sensing, 33(6_2), 1101-1118.</p></div></section></section></main><footer class="site-footer"><div class="container footer-inner"><div class="rich" data-source-id="WRchTxt0-16wb"><p><span><span> © COPYRIGHT UNIST IRIS LAB. ALL RIGHT RESERVED.</span></span></p>
+
+</div><div class="rich" data-source-id="WRchTxts-jbi"><p><span>UNIST-gil 50, Ulsan 44919, Republic of Korea.<br>
+Phone : +82 52 217 2887 / Admissions : +82 52 217 1180</span></p></div></div></footer></body></html>
